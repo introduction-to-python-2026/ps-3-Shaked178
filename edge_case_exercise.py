@@ -6,11 +6,8 @@ def move(my_list, direction):
         result[index - 1] = 1
     elif direction == 'right' and index < len(my_list) - 1:
         result[index + 1] = 1
-    else:
-        result[index] = 1
     
     return result
-
 
 
 
